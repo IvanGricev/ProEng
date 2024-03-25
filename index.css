@@ -1,0 +1,55 @@
+
+  
+  .buttonC {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .popup {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+
+  
+  .inputF {
+    width: 40%;
+    height: 10%;
+  }
+  
+  button[type="submit"] {
+    background-color: #000;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .close-btn {
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
