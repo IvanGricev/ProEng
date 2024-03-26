@@ -38,30 +38,30 @@ if (check_auth()) {
     </div>
   </nav>
 
-<div class="w-50 mt-5 ml-4">
-<h2 class="mb-5">Войти</h2>
+  <div class="w-50 mt-5 ml-4">
+  <h2 class="mb-5">Войти</h2>
 
 
-  <div class="w-25">
-    <?php Lflash(); ?> 
-  </div> 
+    <div class="w-25">
+      <?php Lflash(); ?> 
+    </div> 
 
-  <form method="post" action="do_login.php" id="loginForm" class="w-50">
-      <div class="mb-3">
-          <label for="email" class="form-label">email</label>
-          <input type="text" class="form-control" id="email" name="email" required>
-      </div>
-      <div class="mb-3">
-          <label for="password" class="form-label">Пароль</label>
-          <input type="password" class="form-control" id="password" name="password" required>
-      </div>
-      <div class="d-flex justify-content-between">
-          <button type="submit" class="btn btn-primary">Войти</button>
-          <a class="btn btn-outline-primary" href="registration.php">Зарегистрироваться</a>
-      </div>
-  </form>
+    <form method="post" action="do_login.php" id="loginForm" class="w-50">
+        <div class="mb-3">
+            <label for="email" class="form-label">email</label>
+            <input type="text" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Пароль</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary">Войти</button>
+            <a class="btn btn-outline-primary" href="registration.php">Зарегистрироваться</a>
+        </div>
+    </form>
 
-</div>
+  </div>
 
   <footer class="container mt-5">
     <p class="float-end">
